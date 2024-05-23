@@ -1,0 +1,24 @@
+# ninja log v5
+1677	5533	7379926936875649	CMakeFiles/flowers.dir/flowerlabel.cpp.obj	6b5a36be96110f18
+1660	7023	7379926951877672	CMakeFiles/flowers.dir/main.cpp.obj	d3b000b03f23f2f9
+1683	7003	7379926951635223	CMakeFiles/flowers.dir/flowercard.cpp.obj	1e87db4ad168b61a
+1701	7008	7379926951690287	CMakeFiles/flowers.dir/compflow.cpp.obj	a6df5a096120bb61
+1641	8678	7379926968332057	CMakeFiles/flowers.dir/flowers_autogen/mocs_compilation.cpp.obj	61233a96a5c4ecf3
+11751	12254	7379927003997296	flowers.exe	7529fc8c92e9f25b
+21	1640	7379926897015534	flowers_autogen/timestamp	823abf955bf0c3f3
+21	1640	7379926897015534	flowers_autogen/mocs_compilation.cpp	823abf955bf0c3f3
+1731	8737	7379926968930388	CMakeFiles/flowers.dir/gardnerwindow.cpp.obj	d50b8999b76cd66
+1671	5882	7379926940437891	CMakeFiles/flowers.dir/flowercontainer.cpp.obj	d995d8199c5d97df
+1707	6646	7379926947994934	CMakeFiles/flowers.dir/gardenerform.cpp.obj	26d10acd8310ee00
+21	1640	7379926897015534	C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/timestamp	823abf955bf0c3f3
+1665	11750	7379926999053548	CMakeFiles/flowers.dir/mainwindow.cpp.obj	43c6714fee4ec25d
+21	1640	7379926897015534	C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/mocs_compilation.cpp	823abf955bf0c3f3
+39	1391	7379965638694808	flowers_autogen/timestamp	823abf955bf0c3f3
+39	1391	7379965638694808	flowers_autogen/mocs_compilation.cpp	823abf955bf0c3f3
+39	1391	7379965638694808	C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/timestamp	823abf955bf0c3f3
+39	1391	7379965638694808	C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/mocs_compilation.cpp	823abf955bf0c3f3
+1413	5237	7379965678326084	CMakeFiles/flowers.dir/flowerlabel.cpp.obj	6b5a36be96110f18
+1407	5580	7379965681688769	CMakeFiles/flowers.dir/flowercontainer.cpp.obj	d995d8199c5d97df
+1397	6593	7379965691876822	CMakeFiles/flowers.dir/main.cpp.obj	d3b000b03f23f2f9
+1391	7634	7379965702183994	CMakeFiles/flowers.dir/flowers_autogen/mocs_compilation.cpp.obj	61233a96a5c4ecf3
+1401	11999	7379965745845102	CMakeFiles/flowers.dir/mainwindow.cpp.obj	43c6714fee4ec25d
