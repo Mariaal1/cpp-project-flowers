@@ -1,9 +1,0 @@
-C:/Users/Mavor/Desktop/flowers/bin/CMakeFiles/flowers.dir
-C:/Users/Mavor/Desktop/flowers/bin/CMakeFiles/edit_cache.dir
-C:/Users/Mavor/Desktop/flowers/bin/CMakeFiles/rebuild_cache.dir
-C:/Users/Mavor/Desktop/flowers/bin/CMakeFiles/list_install_components.dir
-C:/Users/Mavor/Desktop/flowers/bin/CMakeFiles/install.dir
-C:/Users/Mavor/Desktop/flowers/bin/CMakeFiles/install/local.dir
-C:/Users/Mavor/Desktop/flowers/bin/CMakeFiles/install/strip.dir
-C:/Users/Mavor/Desktop/flowers/bin/CMakeFiles/flowers_autogen_timestamp_deps.dir
-C:/Users/Mavor/Desktop/flowers/bin/CMakeFiles/flowers_autogen.dir
