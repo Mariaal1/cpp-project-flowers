@@ -10,7 +10,7 @@
 #include <QRadioButton>
 #include <QMenu>
 
-
+// damn daniel
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -42,7 +42,7 @@ private slots:
     void processQualityVector(bool isChecked);
 
     void processContainerVector(bool isChecked);
-
+    
     void processPopularityVector();
 
     void on_pb_qualities_clicked(bool checked);
