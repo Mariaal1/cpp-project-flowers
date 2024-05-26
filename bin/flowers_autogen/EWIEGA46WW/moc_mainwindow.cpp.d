@@ -1,10 +1,5 @@
 C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Mavor/Desktop/flowers/mainwindow.h \
   C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/moc_predefs.h \
-  C:/Users/Mavor/Desktop/flowers/compflow.h \
-  C:/Users/Mavor/Desktop/flowers/flowercard.h \
-  C:/Users/Mavor/Desktop/flowers/flowercontainer.h \
-  C:/Users/Mavor/Desktop/flowers/flowerlabel.h \
-  C:/Users/Mavor/Desktop/flowers/gardnerwindow.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -221,10 +216,7 @@ C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/EWIEGA46WW/moc_mainwindow.cpp
   C:/msys64/mingw64/include/pthread_signal.h \
   C:/msys64/mingw64/include/pthread_time.h \
   C:/msys64/mingw64/include/pthread_unistd.h \
-  C:/msys64/mingw64/include/qt6/QtCore/QEvent \
-  C:/msys64/mingw64/include/qt6/QtCore/QFile \
   C:/msys64/mingw64/include/qt6/QtCore/QSettings \
-  C:/msys64/mingw64/include/qt6/QtCore/QVector \
   C:/msys64/mingw64/include/qt6/QtCore/q20functional.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20memory.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20type_traits.h \
@@ -255,7 +247,6 @@ C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/EWIEGA46WW/moc_mainwindow.cpp
   C:/msys64/mingw64/include/qt6/QtCore/qcontainerinfo.h \
   C:/msys64/mingw64/include/qt6/QtCore/qcontainertools_impl.h \
   C:/msys64/mingw64/include/qt6/QtCore/qcontiguouscache.h \
-  C:/msys64/mingw64/include/qt6/QtCore/qcoreevent.h \
   C:/msys64/mingw64/include/qt6/QtCore/qdarwinhelpers.h \
   C:/msys64/mingw64/include/qt6/QtCore/qdatastream.h \
   C:/msys64/mingw64/include/qt6/QtCore/qdatetime.h \
@@ -351,7 +342,6 @@ C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/EWIEGA46WW/moc_mainwindow.cpp
   C:/msys64/mingw64/include/qt6/QtCore/qutf8stringview.h \
   C:/msys64/mingw64/include/qt6/QtCore/qvariant.h \
   C:/msys64/mingw64/include/qt6/QtCore/qvarlengtharray.h \
-  C:/msys64/mingw64/include/qt6/QtCore/qvector.h \
   C:/msys64/mingw64/include/qt6/QtCore/qversiontagging.h \
   C:/msys64/mingw64/include/qt6/QtCore/qxptype_traits.h \
   C:/msys64/mingw64/include/qt6/QtGui/qaction.h \
@@ -367,18 +357,12 @@ C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/EWIEGA46WW/moc_mainwindow.cpp
   C:/msys64/mingw64/include/qt6/QtGui/qkeysequence.h \
   C:/msys64/mingw64/include/qt6/QtGui/qpaintdevice.h \
   C:/msys64/mingw64/include/qt6/QtGui/qpalette.h \
-  C:/msys64/mingw64/include/qt6/QtGui/qpen.h \
-  C:/msys64/mingw64/include/qt6/QtGui/qpicture.h \
   C:/msys64/mingw64/include/qt6/QtGui/qpixelformat.h \
   C:/msys64/mingw64/include/qt6/QtGui/qpixmap.h \
   C:/msys64/mingw64/include/qt6/QtGui/qpolygon.h \
   C:/msys64/mingw64/include/qt6/QtGui/qregion.h \
   C:/msys64/mingw64/include/qt6/QtGui/qrgb.h \
   C:/msys64/mingw64/include/qt6/QtGui/qrgba64.h \
-  C:/msys64/mingw64/include/qt6/QtGui/qtextcursor.h \
-  C:/msys64/mingw64/include/qt6/QtGui/qtextdocument.h \
-  C:/msys64/mingw64/include/qt6/QtGui/qtextformat.h \
-  C:/msys64/mingw64/include/qt6/QtGui/qtextoption.h \
   C:/msys64/mingw64/include/qt6/QtGui/qtgui-config.h \
   C:/msys64/mingw64/include/qt6/QtGui/qtguiexports.h \
   C:/msys64/mingw64/include/qt6/QtGui/qtguiglobal.h \
@@ -387,44 +371,25 @@ C:/Users/Mavor/Desktop/flowers/bin/flowers_autogen/EWIEGA46WW/moc_mainwindow.cpp
   C:/msys64/mingw64/include/qt6/QtGui/qwindowdefs.h \
   C:/msys64/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/QCheckBox \
-  C:/msys64/mingw64/include/qt6/QtWidgets/QComboBox \
-  C:/msys64/mingw64/include/qt6/QtWidgets/QDateTimeEdit \
   C:/msys64/mingw64/include/qt6/QtWidgets/QFileDialog \
-  C:/msys64/mingw64/include/qt6/QtWidgets/QGridLayout \
-  C:/msys64/mingw64/include/qt6/QtWidgets/QLabel \
-  C:/msys64/mingw64/include/qt6/QtWidgets/QLineEdit \
   C:/msys64/mingw64/include/qt6/QtWidgets/QListWidgetItem \
   C:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
   C:/msys64/mingw64/include/qt6/QtWidgets/QMenu \
-  C:/msys64/mingw64/include/qt6/QtWidgets/QMessageBox \
-  C:/msys64/mingw64/include/qt6/QtWidgets/QPushButton \
   C:/msys64/mingw64/include/qt6/QtWidgets/QRadioButton \
-  C:/msys64/mingw64/include/qt6/QtWidgets/QTableWidget \
-  C:/msys64/mingw64/include/qt6/QtWidgets/QWidget \
   C:/msys64/mingw64/include/qt6/QtWidgets/qabstractbutton.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qabstractitemdelegate.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qabstractitemview.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qabstractscrollarea.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qabstractslider.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qabstractspinbox.h \
-  C:/msys64/mingw64/include/qt6/QtWidgets/qboxlayout.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qcheckbox.h \
-  C:/msys64/mingw64/include/qt6/QtWidgets/qcombobox.h \
-  C:/msys64/mingw64/include/qt6/QtWidgets/qdatetimeedit.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qfiledialog.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qframe.h \
-  C:/msys64/mingw64/include/qt6/QtWidgets/qgridlayout.h \
-  C:/msys64/mingw64/include/qt6/QtWidgets/qlabel.h \
-  C:/msys64/mingw64/include/qt6/QtWidgets/qlayout.h \
-  C:/msys64/mingw64/include/qt6/QtWidgets/qlayoutitem.h \
-  C:/msys64/mingw64/include/qt6/QtWidgets/qlineedit.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qlistview.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qlistwidget.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qmenu.h \
-  C:/msys64/mingw64/include/qt6/QtWidgets/qmessagebox.h \
-  C:/msys64/mingw64/include/qt6/QtWidgets/qpushbutton.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qradiobutton.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qrubberband.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qsizepolicy.h \

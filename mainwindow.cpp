@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     settings = new QSettings("stat", QSettings::IniFormat, this);
 
-    compFlow = new CompFlow();
+
 
 
 
@@ -20,8 +20,6 @@ MainWindow::MainWindow(QWidget *parent)
 
     tw = ui->tableWidget;
     loadFlowers();
-    gardnerWindow = new GardnerWindow(flowersDb[1]);
-    fcard = new FlowerCard();
 
     ui->tw_filterList->setColumnWidth(0, 250);
     menu = new QMenu("Menu");
@@ -39,14 +37,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::showCard()
-{
-    FlowerContainer *fCont = qobject_cast<FlowerContainer *>(sender());
-    int counter = settings->value(fCont->getImgDesk()).toInt();
-    settings->setValue(fCont->getImgDesk(), ++counter);
-    fcard->setFlowContainer(fCont);
-    fcard->show();
-}
 
 QStringList MainWindow::split(QString full)
 {
@@ -121,151 +111,6 @@ void MainWindow::openCsv()
             colIndex++;
         }
         strIndex++;
-    }
-}
-
-void MainWindow::loadFlowers(QString subString)
-{
-    if(fcVector.size())
-    {
-        for(auto fc: fcVector)
-        {
-            delete fc;
-            fcVector.remove(fcVector.indexOf(fc));
-        }
-    }
-
-
-    tw->setRowCount(0);
-    bool isLeft = true;
-    int newRow{};
-    int iterIndex{};
-
-    QMultiMap<int, int>::Iterator mmIter{};
-
-    if(popularityMMap.size())
-    {
-        if(qobject_cast<QRadioButton*>(ui->tw_filterList->cellWidget(1,0))->isChecked())
-        {
-            mmIter = popularityMMap.begin();
-        }
-        else
-        {
-            mmIter = --popularityMMap.end();
-        }
-    }
-
-    while(iterIndex < flowersDb[1].count())
-    {
-        QString flowerName = flowersDb.value(1).at(iterIndex);
-
-        if(subString.length())
-        {
-            if(!flowerName.contains(subString))
-            {
-                iterIndex++;
-                continue;
-            }
-        }
-
-        if(flowGroupVector.length())
-        {
-            if(!flowGroupVector.contains(flowersDb.value(0).at(iterIndex)))
-            {
-                iterIndex++;
-                continue;
-            }
-        }
-
-        if(qualitiesVector.length())
-        {
-            if(!qualitiesVector.contains(flowersDb.value(5).at(iterIndex)))
-            {
-                iterIndex++;
-                continue;
-            }
-        }
-
-        if(containerVector.length())
-        {
-            if(!containerVector.contains(flowersDb.value(3).at(iterIndex)))
-            {
-                iterIndex++;
-                continue;
-            }
-        }
-
-        if(popularityMMap.size())
-        {
-            iterIndex = mmIter.value();
-            flowerName = flowersDb.value(1).at(iterIndex);
-            if(qobject_cast<QRadioButton*>(ui->tw_filterList->cellWidget(1,0))->isChecked())
-            {
-                mmIter++;
-                if(mmIter == popularityMMap.end())
-                {
-                    break;
-                }
-            }
-            else
-            {
-                if(mmIter == popularityMMap.begin())
-                {
-                    break;
-                }
-                mmIter--;
-            }
-        }
-
-        FlowerContainer *fc = new FlowerContainer(this);
-        fcVector.push_back(fc);
-        fc->vDataFlowers.push_back(flowersDb.value(4).at(iterIndex));
-        fc->vDataFlowers.push_back(flowersDb.value(7).at(iterIndex));
-        fc->vDataFlowers.push_back(flowersDb.value(6).at(iterIndex));
-        fc->vDataFlowers.push_back(flowersDb.value(0).at(iterIndex));
-        fc->vDataFlowers.push_back(flowersDb.value(9).at(iterIndex));
-        fc->vDataFlowers.push_back(flowersDb.value(3).at(iterIndex));
-        fc->vDataFlowers.push_back(flowersDb.value(8).at(iterIndex));
-        fc->vDataFlowers.push_back(flowersDb.value(2).at(iterIndex));
-
-        connect(fc, &FlowerContainer::click, this, &MainWindow::showCard);
-        connect(fc, &FlowerContainer::checked, this, &MainWindow::addToCompare);
-
-        QDir currDir("./img/"+flowerName);
-        QString fAddress{};
-        fAddress ="./img/"+flowerName+"/"+currDir.entryList().value(2);
-
-
-        if(!fc->setInfo(fAddress, flowerName))
-        {
-            iterIndex++;
-            continue;
-        }
-
-        if(isLeft)
-        {
-            newRow = tw->rowCount();
-            tw->insertRow(newRow);
-            tw->setCellWidget(newRow, 0, fc);
-        }
-        else
-        {
-            tw->setCellWidget(newRow, 1, fc);
-        }
-        isLeft = !isLeft;
-
-        for(const auto fName : currDir.entryList())
-        {
-            if(fName!="." && fName!="..")
-            {
-                fc->vUrlFlowers.push_back("./img/"+flowerName+"/"+fName);
-            }
-        }
-
-        if(!popularityMMap.size())
-        {
-            iterIndex++;
-        }
     }
 }
 
@@ -438,40 +283,19 @@ void MainWindow::on_pb_qualities_clicked(bool checked)
 
 void MainWindow::on_toolButton_clicked()
 {
-    if(fcCompareVector.length())
-    {
-        compFlow->setCompVector(fcCompareVector);
-        compFlow->show();
-    }
+
 }
 
 
 void MainWindow::on_toolButton_2_clicked()
 {
-    for(auto fc: fcCompareVector)
-    {
-        fc->unChecked();
-    }
-    fcCompareVector.clear();
+
 }
 
-void MainWindow::addToCompare(bool isChecked)
-{
-    FlowerContainer *currFc = qobject_cast<FlowerContainer*>(sender());
-    if(isChecked)
-    {
-        fcCompareVector << currFc;
-    }
-    else
-    {
-        fcCompareVector.remove(fcCompareVector.indexOf(currFc));
-    }
-}
 
 
 void MainWindow::on_toolButton_3_clicked()
 {
-    gardnerWindow->addFlowers(fcCompareVector);
-    gardnerWindow->show();
+
 }
 

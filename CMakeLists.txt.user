@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 12.0.0, 2024-05-21T16:31:14. -->
+<!-- Written by QtCreator 12.0.0, 2024-05-26T11:20:27. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -712,7 +712,6 @@
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/Mavor/Desktop/build-flowers-Desktop_Qt_static_MinGW_w64_UCRT64_MSYS2_qt5_sta-Debug</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

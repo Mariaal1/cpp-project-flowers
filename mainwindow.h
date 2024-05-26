@@ -9,9 +9,7 @@
 #include <QSettings>
 #include <QRadioButton>
 #include <QMenu>
-#include "flowercard.h"
-#include "compflow.h"
-#include "gardnerwindow.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -62,14 +60,8 @@ private:
     QMap<int, QVector<QString>> flowersDb{};
     QVector<QString> topics{};
     QTableWidget *tw{};
-    FlowerCard *fcard{};
-    CompFlow *compFlow{};
-    GardnerWindow *gardnerWindow{};
-    QVector<FlowerContainer*> fcVector{};
 
     void openCsv();
-
-    QVector<FlowerContainer*> fcCompareVector{};
 
 
     QStringList split(QString full);

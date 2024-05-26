@@ -244,18 +244,6 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Mavor/Desktop/flowers/flowercontainer.h",
-			"MU",
-			"EWIEGA46WW/moc_flowercontainer.cpp",
-			null
-		],
-		[
-			"C:/Users/Mavor/Desktop/flowers/flowerlabel.h",
-			"MU",
-			"EWIEGA46WW/moc_flowerlabel.cpp",
-			null
-		],
-		[
 			"C:/Users/Mavor/Desktop/flowers/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -334,8 +322,6 @@
 	"SETTINGS_FILE" : "C:/Users/Mavor/Desktop/flowers/bin/CMakeFiles/flowers_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/Mavor/Desktop/flowers/flowercontainer.cpp", "MU", null ],
-		[ "C:/Users/Mavor/Desktop/flowers/flowerlabel.cpp", "MU", null ],
 		[ "C:/Users/Mavor/Desktop/flowers/main.cpp", "MU", null ],
 		[ "C:/Users/Mavor/Desktop/flowers/mainwindow.cpp", "MU", null ]
 	],

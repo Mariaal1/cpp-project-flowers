@@ -7,7 +7,6 @@
 *****************************************************************************/
 
 #include "../../../mainwindow.h"
-#include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 
 #if __has_include(<QtCore/qtmochelpers.h>)
@@ -28,7 +27,7 @@ QT_BEGIN_MOC_NAMESPACE
 #endif
 
 #ifndef Q_CONSTINIT
-#define Q_CONSTINIT
+
 #endif
 
 QT_WARNING_PUSH
@@ -37,30 +36,7 @@ QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {};
-static constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::stringData(
-    "MainWindow",
-    "showCard",
-    "",
-    "on_lineEdit_textChanged",
-    "arg1",
-    "on_pb_flowerGroup_clicked",
-    "checked",
-    "on_pb_container_clicked",
-    "on_pb_popularity_clicked",
-    "loadFlowers",
-    "subString",
-    "processFlowGroupVector",
-    "isChecked",
-    "processQualityVector",
-    "processContainerVector",
-    "processPopularityVector",
-    "on_pb_qualities_clicked",
-    "on_toolButton_clicked",
-    "on_toolButton_2_clicked",
-    "addToCompare",
-    "on_toolButton_3_clicked"
-);
+
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {
     uint offsetsAndSizes[42];
